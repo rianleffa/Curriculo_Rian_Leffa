@@ -1,0 +1,113 @@
+*{ /* Estilzando o root da página, válido para todos os elementos*/
+    margin: 0 auto; /* zerando as margins de cima e baixo, e definado as
+    margens direita e esquerda como automático */
+    box-sizing: border-box; /* calculando o tamanho da caixa a partir da
+    largura e altura */
+    }
+    .pai{
+    width: 60%; /* Definando 60% da largura da página */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /*Definindo a fonte*/
+    border: 1px solid; /* Definindo a borda */
+    }
+    .limpar{ /* Classe para limpar flutuaçãoes*/
+    clear: both;
+    }
+    .topo{ /* Estilizando a classe do cabeçalho */
+    height: 80px; /* Definindo altura */
+    background-color: rgb(71, 152, 245);
+    margin-top: 20px; /* Definindo a margin do elemento*/
+    color: rgb(255, 255, 255); /* Alterando a cor dos elementos*/
+    font-size: 20px; /* Definindo o tamanho da fonte do texto*/
+    text-align: center; /* Definindo o alinhamento e aposição de um elemento*/
+    }
+    .topo span{ /*Estilizando o span dentro do cabeçalho*/
+    margin: 0 20px; /* Alterando a margin */
+    padding-top: 10px; /* Defini o preenchimento interno do elemento */
+    display: inline-block; /* alterando os display para alterar altura */
+    }
+    .topo img{ /*Estilizando o ícone da classe cabeçalho*/
+    height: 22px; /* Definindo altura */
+    width: 22px; /* Definindo largura */
+    }
+    .perfil{ /*Definindo uma altura e borda inferior para classe perfil.*/
+    height: 200px;
+    border-bottom: 2px solid; /* Definindo a borda */
+    }
+    .dados{ /* Definindo largura e flutuação a esquerda para classe dados. */
+    width: 60%;
+    float: left;
+    text-align: right;
+    padding-top: 50px;
+    padding-right: 20px;
+    }
+    .dados p{
+    font-size: 20px;
+    text-align: right;
+    font-family: initial; /* Definindo a fonte*/
+    }
+    .foto{ /* Definindo largura e flutuação a esquerda para classe foto. */
+    width: 40%;
+    float: left;
+    padding-left: 50px;
+    }
+    .foto img{ /*Estilizando a foto de perfil (largura, altura, borda e
+    margem)*/
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+    margin-top: 30px;
+    clear: both;
+    }
+    .experiencias{ /* Definindo largura e flutuação a esquerda para classe
+    experiências. */
+    width: 60%;
+    float: left;
+    padding-left: 5px;
+    font-family: inherit;
+    }
+  
+    .tech{ /* Definindo largura e flutuação a esquerda para classe tech. */
+    
+    width: 40%;
+    float: left;
+    border-left: 2px solid;
+    padding-left: 5px;
+    }
+    .tech h2{
+    text-decoration: underline;
+    }
+    .tech p{ /* Definindo largura e flutuação a esquerda para os parágrafos
+    na tech */
+    width: 50%;
+    float: left;
+    clear: both;
+    margin-bottom: 5px;
+    }
+    .circulo{ /* Classe para criar níveis das habilidades */
+    width: 14px;
+    height: 14px;
+    border-radius: 50%; /* Definindo a borda*/
+    background-color: rgb(118, 248, 11); /* Alterando a cor do circulo*/
+    margin-right: 5px;
+    float: left; /* Definindo a flutuação do elemento*/
+    }
+    .educacao{ /* Definindo largura e flutuação a esquerda para classe dados.
+    */
+    width: 100%;
+    float: left;
+    border-top: 2px solid;
+    padding-left: 10px;
+    }
+    .educacao h2{  /* Definindo fonte e largura para classe educação h2*/
+    text-decoration: underline;
+    padding-bottom: 10px;
+    }
+    .educacao p{ /* Definindo largura,cor e alinhamento para classe educação p */
+    padding-bottom: 15px;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-align: justify;
+    background-color: rgb(166, 219, 219);
+    margin-top: 10px;
+    }
+    
